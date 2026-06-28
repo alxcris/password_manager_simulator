@@ -50,6 +50,13 @@ The project requires the GCC compiler. You can compile each module separately as
 gcc -Wall -g vigenere.c -o vigenere
 gcc -Wall -g autofill.c -o autofill
 gcc -Wall -g encryption.c -o encryption
+
+You can also use
+
+make all
+make vigenere
+make autofill
+make encryption
 ```
 
 ## Running the Utilities
